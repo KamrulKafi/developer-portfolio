@@ -1,12 +1,18 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+section {
+    height: 500px;
+    margin-bottom: 150px;
 }
 
 h1 {
     font-size: 50px;
 }
 
-.orange-color {
+h1 span {
     color: orange;
 }
 
@@ -15,20 +21,26 @@ section {
 }
 
 .half-weight {
-    weight: 50%;
-    padding-left: 5%;
+    width: 50%;
+    margin-left: 5%;
+    padding-left: 2%;
 }
 
 .half-weight img {
-    padding-top: 50px;
-    padding-left: none;
-    padding-right: 60px;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-left: 80px;
 }
 
 .link-button {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700px;
     padding: 10px 40px;
     border-radius: 5px;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
