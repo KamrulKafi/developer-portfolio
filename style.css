@@ -16,7 +16,7 @@ h1 span {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
 }
 
@@ -35,7 +35,7 @@ section {
     text-decoration: none;
     background-image: linear-gradient(orange, tomato);
     color: white;
-    font-weight: 700px;
+    font-weight: bold;
     padding: 10px 40px;
     border-radius: 5px;
 }
@@ -43,4 +43,11 @@ section {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 10%;
 }
